@@ -1,0 +1,19 @@
+{
+  "name": "zjuoc-ppt-template",
+  "version": "1.0.0",
+  "description": "浙江大学学生海洋机器人协会内训 PPT 模板：三种版式 + pptxgenjs 绘图 helper",
+  "engines": { "node": ">=20.9.0" },
+  "license": "MIT",
+  "main": "tpl.js",
+  "scripts": {
+    "build": "node build_template.js"
+  },
+  "dependencies": {
+    "jszip": "3.10.2",
+    "pptxgenjs": "4.0.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-icons": "5.7.0",
+    "sharp": "0.35.5"
+  }
+}
